@@ -11,7 +11,7 @@ require("dotenv").config();
 	const app = express();
 	app.use(express.json());
 	const port = process.env.PORT || 3000;
-	const connectionString = `mongodb://${dbHost}:${dbPort}/${dbName}`;
+	const connectionString = `mongodb+srv://admin:NsoYiZInXHv9hRHV@cluster0.qv4pc.mongodb.net/blue_db?retryWrites=true&w=majority`;
 
 	const options = {
 		useUnifiedTopology: true,
