@@ -170,6 +170,6 @@ const ObjectId = mongodb.ObjectId;
 	});
 
 	app.listen(port, () => {
-		console.info(`App rodando em http://localhost:${port}`);
+		console.info(`App rodando em http://localhost:${process.env.PORT || port}`);
 	});
 })();
