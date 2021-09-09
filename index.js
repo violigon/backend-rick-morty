@@ -44,7 +44,7 @@ require("dotenv").config();
 	app.get("/", (req, res) => {
 		res.send({ info: "Olá, Blue" });
 	});
-
+console.log("teste");
 	//[GET] GetAllPersonagens
 
 	app.get("/personagens", async (req, res) => {
