@@ -1,14 +1,82 @@
 [
-	{
-		"nome": "Nake Terminator",
-		"imagemUrl": "https://rickandmortyapi.com/api/character/avatar/577.jpeg"
-	},
-	{
-		"nome": "Aqua Morty",
-		"imagemUrl": "https://rickandmortyapi.com/api/character/avatar/21.jpeg"
-	},
-	{
-		"nome": "Rick Sanchez",
-		"imagemUrl": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
-	}
+  {
+    "nome": "Rick Sanchez",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+  },
+  {
+    "nome": "Morty Smith",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+  },
+  {
+    "nome": "Summer Smith",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+  },
+  {
+    "nome": "Beth Smith",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+  },
+  {
+    "nome": "Jerry Smith",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+  },
+  {
+    "nome": "Abadango Cluster Princess",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/6.jpeg"
+  },
+  {
+    "nome": "Abradolf Lincler",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/7.jpeg"
+  },
+  {
+    "nome": "Adjudicator Rick",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/8.jpeg"
+  },
+  {
+    "nome": "Agency Director",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/9.jpeg"
+  },
+  {
+    "nome": "Alan Rails",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/10.jpeg"
+  },
+  {
+    "nome": "Albert Einstein",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/11.jpeg"
+  },
+  {
+    "nome": "Alexander",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/12.jpeg"
+  },
+  {
+    "nome": "Alien Googah",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/13.jpeg"
+  },
+  {
+    "nome": "Alien Morty",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/14.jpeg"
+  },
+  {
+    "nome": "Alien Rick",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/15.jpeg"
+  },
+  {
+    "nome": "Amoeba Daughter",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/16.jpeg"
+  },
+  {
+    "nome": "Anastasia",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/17.jpeg"
+  },
+  {
+    "nome": "Anatomy Park Guest 1",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/18.jpeg"
+  },
+  {
+    "nome": "Anatomy Park Guest 2",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/19.jpeg"
+  },
+  {
+    "nome": "Annie",
+    "imagemUrl": "https://rickandmortyapi.com/api/character/avatar/20.jpeg"
+  }
 ]
