@@ -16,7 +16,7 @@ require("dotenv").config();
   const app = express();
   app.use(express.json());
 
-  const port = portEnv || 3001;
+  const port = process.env.PORT || 3001;
   const connectionString = 
     `mongodb+srv://${dbUser}:${dbPassword}` +
     `@cluster0.${dbChar}.mongodb.net/${dbName}` +
