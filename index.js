@@ -11,7 +11,7 @@ require("dotenv").config();
 
 	const app = express();
 	app.use(express.json());
-	const port = process.env.PORT || 3000;
+	const port = process.env.PORT || 3001;
 	const connectionString = `mongodb+srv://${dbUser}:${dbPassword}@cluster0.${dbChar}.mongodb.net/${dbName}?retryWrites=true&w=majority`;
 
 	const options = {
@@ -20,7 +20,7 @@ require("dotenv").config();
 
 	const client = await mongodb.MongoClient.connect(connectionString, options);
 
-	const db = client.db("blue_db");
+	const db = client.db("rick_and_morty");
 	const personagens = db.collection("personagens");
 
 	const getPersonagensValidas = () => personagens.find({}).toArray();
